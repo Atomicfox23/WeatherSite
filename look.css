@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin: 0;
+    background: #199;
+    background-image: url('https://source.unsplash.com/random/1600x900?nature will give you a random image of 1600x900 pixels related to nature.');
+    font-family: 'Oswald', sans-serif;
+    font-size: 120%;
+}
+
+.card {
+    background: #eaeaead0;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+button {
+    border-radius: 20px;
+    border: none;
+    margin: 0.5em;
+    height: 40px;
+    width: 40px;
+    background: #ffffffc2;
+    cursor: pointer;
+    transition: 0.2s ease-is-out;
+}
+
+input.search_bar {
+    border: none;
+    outline: none;
+    padding: 0.4em;
+    border-radius: 20px;
+    color: black;
+    font-size: 100%;
+    background: #ffffff4f;
+    width: 100%;
+}
+
+button:hover {
+    background: #4d4c4cb9;
+}
+h1.temp{
+    margin: 1;
+}
